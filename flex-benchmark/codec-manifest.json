@@ -1,0 +1,30 @@
+{
+  "codec": "standard LZ4 frame, independent blocks",
+  "uuid": "deterministic UUIDv8 with 48-bit record index",
+  "plain_value_sizes": [
+    5228,
+    1577,
+    4520,
+    4773,
+    4627,
+    5296,
+    4629,
+    6179,
+    4823,
+    5123
+  ],
+  "lz4_value_sizes": [
+    1692,
+    1018,
+    1420,
+    1576,
+    1461,
+    1845,
+    1487,
+    1980,
+    1603,
+    1750
+  ],
+  "total_per_dataset": 140000000,
+  "bucket_count": 4096
+}

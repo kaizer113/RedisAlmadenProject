@@ -1,0 +1,2 @@
+aws_vpc_id = "vpc-REPLACE_ME"
+# Defaults: us-west-2, 25 GB dataset, 25000 operations/sec, no replication.

@@ -1,0 +1,23 @@
+{
+  "databaseId": 14715459,
+  "name": "redis-flex-1tb",
+  "status": "active",
+  "memoryLimitInGb": 1000.0,
+  "datasetSizeInGb": 1000.0,
+  "ramPercentage": 20,
+  "memoryStorage": "ram-and-flash",
+  "replication": false,
+  "throughputMeasurement": {
+    "by": "operations-per-second",
+    "value": 25000
+  },
+  "clustering": {
+    "numberOfShards": 20,
+    "regexRules": [],
+    "hashingPolicy": "redis"
+  },
+  "privateEndpoint": "even-biodegradable-big-13523.db.redis.io:17850",
+  "redisVersionCompliance": "8.6.2",
+  "dataPersistence": "none",
+  "dataEvictionPolicy": "volatile-lru"
+}

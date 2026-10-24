@@ -1,0 +1,106 @@
+{
+  "platform": "Linux-6.18.54-121.166.amzn2023.x86_64-x86_64-with-glibc2.34",
+  "python": "3.9.25",
+  "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           46 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  16\nOn-line CPU(s) list:                     0-15\nVendor ID:                               GenuineIntel\nModel name:                              Intel(R) Xeon(R) Platinum 8488C\nCPU family:                              6\nModel:                                   143\nThread(s) per core:                      2\nCore(s) per socket:                      8\nSocket(s):                               1\nStepping:                                8\nBogoMIPS:                                4800.00\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq monitor ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx_vnni avx512_bf16 wbnoinvd ida arat avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq rdpid cldemote movdiri movdir64b md_clear serialize amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities\nHypervisor vendor:                       KVM\nVirtualization type:                     full\nL1d cache:                               384 KiB (8 instances)\nL1i cache:                               256 KiB (8 instances)\nL2 cache:                                16 MiB (8 instances)\nL3 cache:                                105 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-15\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+  "server": {
+    "redis_version": "8.6.2",
+    "redis_git_sha1": 0,
+    "redis_git_dirty": 0,
+    "redis_build_id": 0,
+    "redis_mode": "standalone",
+    "os": "Linux 6.8.0-1066-aws x86_64",
+    "arch_bits": 64,
+    "multiplexing_api": "epoll",
+    "gcc_version": "11.4.0",
+    "process_id": 14715459,
+    "run_id": "be0204167099b829cf7ec2e2e5835f21d33e744e",
+    "tcp_port": 17850,
+    "server_time_usec": 1792796420000000,
+    "uptime_in_seconds": 2771,
+    "uptime_in_days": 0,
+    "hz": 10,
+    "lru_clock": 0,
+    "config_file": ""
+  },
+  "before_benchmarks": {
+    "timestamp": 1792796420.9611325,
+    "dbsize": 280000000,
+    "memory": {
+      "used_memory": 919379120930,
+      "used_memory_human": "856.23G",
+      "used_memory_rss": 919379120930,
+      "used_memory_peak": 919961731164,
+      "used_memory_peak_human": "856.78G",
+      "used_memory_lua": 3509248,
+      "maxmemory_policy": "volatile-lru",
+      "mem_fragmentation_ratio": 1,
+      "mem_allocator": "jemalloc-5.3.0"
+    },
+    "stats": {
+      "total_connections_received": 1005,
+      "total_commands_processed": 1182135,
+      "instantaneous_ops_per_sec": 239,
+      "total_net_input_bytes": 15521155409,
+      "total_net_output_bytes": 1186628887,
+      "instantaneous_input_kbps": 4.51,
+      "instantaneous_output_kbps": 217.78,
+      "rejected_connections": 0,
+      "sync_full": 0,
+      "sync_partial_ok": 0,
+      "sync_partial_err": 0,
+      "expired_keys": 0,
+      "evicted_keys": 0,
+      "keyspace_hits": 84000,
+      "keyspace_misses": 280000000,
+      "pubsub_channels": 0,
+      "pubsub_patterns": 0,
+      "pubsubshard_channels": 0,
+      "latest_fork_usec": 0,
+      "migrate_cached_sockets": 0,
+      "total_forks": 0,
+      "total_error_replies": 0,
+      "total_eviction_exceeded_time": 0,
+      "current_eviction_exceeded_time": 0,
+      "total_active_defrag_time": 0,
+      "current_active_defrag_time": 0
+    },
+    "keyspace": {
+      "db0": {
+        "keys": 280000000,
+        "expires": 0,
+        "avg_ttl": 0
+      }
+    }
+  },
+  "codec": {
+    "codec": "standard LZ4 frame, independent blocks",
+    "uuid": "deterministic UUIDv8 with 48-bit record index",
+    "plain_value_sizes": [
+      5228,
+      1577,
+      4520,
+      4773,
+      4627,
+      5296,
+      4629,
+      6179,
+      4823,
+      5123
+    ],
+    "lz4_value_sizes": [
+      1692,
+      1018,
+      1420,
+      1576,
+      1461,
+      1845,
+      1487,
+      1980,
+      1603,
+      1750
+    ],
+    "total_per_dataset": 140000000,
+    "bucket_count": 4096
+  },
+  "packages": "async-timeout==5.0.1\nlz4==4.4.5\nnumpy==2.0.2\nredis==7.0.1\n"
+}

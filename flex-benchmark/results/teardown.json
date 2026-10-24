@@ -1,0 +1,20 @@
+{
+  "verified_date_utc": "2026-10-24",
+  "database_id": 14715459,
+  "database_status": "deleted; subscription reports zero databases",
+  "subscription_id": 3460610,
+  "subscription_status": "retained pending user decision",
+  "instance_id": "i-0de54e8f19f72c179",
+  "instance_status": "terminated",
+  "volume_id": "vol-064090b2c1281f82e",
+  "volume_status": "absent",
+  "peering_id": "pcx-0d5e9a0c537f693f8",
+  "peering_status": "deleted",
+  "peering_routes_remaining": 0,
+  "security_group_id": "sg-062b580a9d3b881b7",
+  "security_group_status": "deleted",
+  "key_pair_name": "redis-flex-benchmark-lionel",
+  "key_pair_status": "deleted",
+  "existing_vpc_id": "vpc-0bdba995c15e5371d",
+  "existing_vpc_status": "retained"
+}

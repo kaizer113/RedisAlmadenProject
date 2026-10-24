@@ -1,0 +1,13 @@
+{
+  "verified_at_utc": "2026-10-23T23:30:52.513549+00:00",
+  "runs": 8,
+  "measured_seconds_per_run": 180,
+  "successful_records_per_run": 360000,
+  "errors": 0,
+  "missing_keys": 0,
+  "evictions": 0,
+  "final_key_count": 280000000,
+  "raw_timing_archives_crc_and_shapes": "passed",
+  "capacity_gb": 1000,
+  "population_per_format": 140000000
+}

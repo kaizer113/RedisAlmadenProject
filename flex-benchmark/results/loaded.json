@@ -1,0 +1,50 @@
+{
+  "timestamp": 1792796387.657888,
+  "dbsize": 280000000,
+  "memory": {
+    "used_memory": 919417251831,
+    "used_memory_human": "856.27G",
+    "used_memory_rss": 919417251831,
+    "used_memory_peak": 919956749325,
+    "used_memory_peak_human": "856.77G",
+    "used_memory_lua": 3509248,
+    "maxmemory_policy": "volatile-lru",
+    "mem_fragmentation_ratio": 1,
+    "mem_allocator": "jemalloc-5.3.0"
+  },
+  "stats": {
+    "total_connections_received": 993,
+    "total_commands_processed": 1178120,
+    "instantaneous_ops_per_sec": 250,
+    "total_net_input_bytes": 15520728976,
+    "total_net_output_bytes": 1168573342,
+    "instantaneous_input_kbps": 4.81,
+    "instantaneous_output_kbps": 215.96,
+    "rejected_connections": 0,
+    "sync_full": 0,
+    "sync_partial_ok": 0,
+    "sync_partial_err": 0,
+    "expired_keys": 0,
+    "evicted_keys": 0,
+    "keyspace_hits": 80000,
+    "keyspace_misses": 280000000,
+    "pubsub_channels": 0,
+    "pubsub_patterns": 0,
+    "pubsubshard_channels": 0,
+    "latest_fork_usec": 0,
+    "migrate_cached_sockets": 0,
+    "total_forks": 0,
+    "total_error_replies": 0,
+    "total_eviction_exceeded_time": 0,
+    "current_eviction_exceeded_time": 0,
+    "total_active_defrag_time": 0,
+    "current_active_defrag_time": 0
+  },
+  "keyspace": {
+    "db0": {
+      "keys": 280000000,
+      "expires": 0,
+      "avg_ttl": 0
+    }
+  }
+}
